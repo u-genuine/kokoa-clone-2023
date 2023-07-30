@@ -16,7 +16,7 @@
   padding: 0px 20px 0px 25px;
   margin-right: 5px;
   overflow-y: scroll;
-  height: 515px;
+  height: 550px;
 }
 .friends-screen::-webkit-scrollbar {
   width: 7px;
@@ -66,4 +66,7 @@
 #splash-screen i:last-child {
   position: absolute;
   color: white;
+}
+.friends-screen .user-component:last-child {
+  margin-bottom: 30px;
 }
