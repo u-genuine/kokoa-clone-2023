@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin-top: 15px;
   align-items: center;
 }
 .alt-header__title {
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 600;
 }
 .alt-header__column {

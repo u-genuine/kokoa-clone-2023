@@ -1,34 +1,64 @@
-.more-screen .icon-row{
-margin-top: 35px;
+.wallet {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+  height: 150px;
 }
-.more-suggestions{
-    margin-top: 50px;
-    border-top: var(--main-border);
-    padding-top: 40px;
+.wallet__white-box {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
 }
-.more-suggestions__title{
-    margin-bottom: 30px;
+.wallet__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.more-suggestions__icons{
-    display: flex;
+.wallet__row__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.more-suggestions__icon{
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.wallet__row__column .fa-comment,
+.wallet__row__column .fa-cart-shopping {
+  padding-top: 5px;
+  margin-right: 5px;
 }
-.more-suggestions__icon-image{
-    width: 60px;
-    height: 60px;
-    background-color: var(--yellow);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+.wallet__row__column .fa-shield-halved {
+  padding-top: 3px;
+  margin-right: 5px;
 }
-.more-suggestions__icon-image i{
-    color: white;
-    font-size: 32px;
+
+.wallet__text-wallet {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.wallet__text-certification {
+  font-size: 16px;
+  font-weight: 600;
+}
+.wallet__text-pay {
+  font-weight: 600;
+}
+.bar {
+  margin: 0px 10px;
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.more__icons {
+  padding: 0px 20px 0px 25px;
+}
+.icon-row {
+  margin-top: 35px;
 }

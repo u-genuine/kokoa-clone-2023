@@ -1,69 +1,99 @@
-
-.user-component{
-    justify-content: space-between;
-    margin-bottom: 10px;
-    
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 .user-component,
-.user-component__column:first-child{
-    display: flex;
-    align-items: center ;
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
 }
-.user-component__column{
-    position: relative;
-}
-
-.user-component__avatar{
-    width: 70px;
-    height: 70px;
-    border-radius: 30px;
-    margin-right: 20px;
+.user-component__column {
+  position: relative;
 }
 
-.user-component__title{
-    font-weight: 600;
-    font-size: 22px;
-}
-.user-component__subtitle{
-    margin-top: 8px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 17px;
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 20px;
 }
 
+.user-component__avatar__channel {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.user-component__avatar--no-img {
+  background-color: #7bb7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__avatar--no-img i {
+  color: white;
+}
 
-.user-component__avatar--xl{
-    width: 80px;
-    height: 80px;
+.user-component__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
 }
-.user-component__avatar--sm{
-    width: 60px;
-    height: 60px;
-    border-radius: 25px;
-}
-.user-component__title--not-bold{
-    font-weight: 400;
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
 }
 
-.user-component__column:last-child{
-    color:rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+.user-component__avatar--xl {
+  width: 70px;
+  height: 70px;
 }
-.user-component__time{
-    margin-bottom:10px ;
-    display: block;
+.user-component__avatar--sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
 }
-.user-component__text span{
-    position: absolute;
-    color: tomato;
-    border: 2px solid tomato;
-    font-size: 14px;
-    font-weight: 600;
-    width: 1em;
-    border-radius: 50%;
-    padding: 0.1px 0.2px;
-    text-align: center;
-    right: -25px;
-    bottom: 16px;
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.user-component__time {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+.user-component__text span {
+  position: absolute;
+  color: tomato;
+  border: 2px solid tomato;
+  font-size: 14px;
+  font-weight: 600;
+  width: 1em;
+  border-radius: 50%;
+  padding: 0.1px 0.2px;
+  text-align: center;
+  right: -25px;
+  bottom: 16px;
+}
+.user-component__music {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  height: 20px;
+  border-radius: 15px;
+  padding: 2px 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-component__music span {
+  margin-right: 6px;
 }

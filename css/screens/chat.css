@@ -1,14 +1,17 @@
 #chat-screen {
-  background-color: #abc1d1;
-  height: 500vh;
+  background-color: white;
 }
+#chat-screen::-webkit-scrollbar {
+  display: none;
+}
+
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   top: 0;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: white;
 }
 #chat-screen .alt-header {
   z-index: 1;
@@ -36,16 +39,28 @@
 }
 */
 .main-chat {
-  margin-top: 120px;
+  margin-top: 100px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /*animation: fadeIn 0.3s linear;*/
+  overflow-y: scroll;
+  height: 563px;
+  padding: 0px 10px 0px 15px;
+  overflow-x: hidden;
+}
+.main-chat::-webkit-scrollbar {
+  width: 7px;
+}
+.main-chat::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
 }
 .chat__timestamp {
-  background-color: #92a4b2;
+  background-color: black;
   color: white;
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 25px;
   font-size: 14px;
   margin-bottom: 25px;
@@ -65,7 +80,7 @@
 .message-row {
   width: 100%;
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   animation: fadeInLeft 0.5s ease-in-out;
 }
 .message-row img {
@@ -74,12 +89,13 @@
   border-radius: 50%;
   margin-right: 10px;
 }
+
 .message__author {
   display: block;
   margin-bottom: 5px;
 }
 .message__bubble {
-  background-color: white;
+  background-color: lightgray;
   padding: 13px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -89,6 +105,10 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 5px;
+}
+.message-row__content > div:last-child {
+  margin-bottom: 0px;
 }
 .message__author,
 .message__time {
@@ -111,7 +131,7 @@
   animation: fadeInright 0.5s ease-in-out;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -125,7 +145,6 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
@@ -166,7 +185,7 @@
 }
 
 .refly__column button {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   border: none;
   width: 30px;
   height: 30px;

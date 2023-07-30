@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .screen-header__title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
 }
 .screen-header__icons span {
@@ -24,4 +24,12 @@
 }
 .screen-header__icons .fa-gear:hover {
   animation: rotateCog 1s linear infinite;
+}
+.screen-header__icon__user {
+  position: relative;
+}
+.icon-user-plus {
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }

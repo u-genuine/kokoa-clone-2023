@@ -1,6 +1,7 @@
-:root{
-    --yellow: #f9dc05;
-    --horizontal-space: 25px;
-    --main-border: 1px solid rgba(0, 0, 0, 0.2);
-    --gray: rgba(0, 0, 0, 0.5);
+:root {
+  --yellow: #f9dc05;
+  --blue: #3396ee;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --gray: rgba(0, 0, 0, 0.5);
 }

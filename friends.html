@@ -23,9 +23,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <p class="screen-header__title">Friends</p>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span class="screen-header__icon__user">
+          <i class="far fa-user fa-lg"></i>
+          <i class="fa-solid fa-plus icon-user-plus fa-xs"></i>
+        </span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span
           ><div class="point"></div>
@@ -34,46 +38,149 @@
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fa-solid fa-circle-info"></i> Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i
-    ></a>
+    <!-- <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a> -->
 
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars.githubusercontent.com/u/3612017?v=4"
+            src="https://i.pinimg.com/564x/69/f9/b2/69f9b280687ba92d7cc35a3a90dc1a5b.jpg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <p class="user-component__title">Yoojin</p>
+            <p class="user-component__subtitle">My sweetie cat</p>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <div class="user-component__music">
+            <span>Guitars and Drugs - John K</span>
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
       </div>
 
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
+      <div class="friends-screen__lists">
+        <div
+          class="friends-screen__list-header friends-screen__list-header__open"
+        >
           <span>Channel</span> <i class="fa-solid fa-chevron-up fa-sm"></i>
         </div>
-
         <div class="user-component">
           <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/3612017?v=4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
+            <div
+              class="user-component__avatar user-component__avatar__channel user-component__avatar--sm"
+            >
+              <i class="fa-regular fa-comment fa-lg"></i>
+            </div>
             <div class="user-component__text">
-              <h4 class="user-component__title--not-bold">Channel</h4>
+              <p class="user-component__title">Channel</p>
             </div>
           </div>
           <div class="user-component__column">
             <div>
-              <span>2</span><i class="fa-solid fa-chevron-right fa-xs"></i>
+              <span>50</span><i class="fa-solid fa-chevron-right fa-xs"></i>
             </div>
           </div>
+        </div>
+        <div
+          class="friends-screen__list-header friends-screen__list-header__open"
+        >
+          <span>Friends</span> <i class="fa-solid fa-chevron-up fa-sm"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/564x/06/df/b6/06dfb68e62a9a0691c39cbe465b601e5.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <p class="user-component__title">Liz</p>
+              <p class="user-component__subtitle">D-3 !!!</p>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <span>BANG! - AJR</span>
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/564x/33/a1/5f/33a15fae1fc6830e8a110fc60bc029ff.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <p class="user-component__title">Kathy</p>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <span>Gimme Gimme - Johnny Stimton</span>
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div
+              class="user-component__avatar user-component__avatar--sm user-component__avatar--no-img"
+            >
+              <i class="fas fa-user fa-xl"></i>
+            </div>
+            <div class="user-component__text">
+              <p class="user-component__title">Jennifer</p>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/564x/2a/1d/cc/2a1dcc4dfb8ceab1985d71cc24b276de.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <p class="user-component__title">Tom</p>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <span>Hold On Tight - aespa</span>
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <div
+              class="user-component__avatar user-component__avatar--sm user-component__avatar--no-img"
+            >
+              <i class="fas fa-user fa-xl"></i>
+            </div>
+            <div class="user-component__text">
+              <p class="user-component__title">Samuel</p>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/564x/ad/ea/a1/adeaa1d253aa4b4f103f88aec77bb0eb.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <p class="user-component__title">Charlie</p>
+              <p class="user-component__subtitle">Love you, Jenny</p>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
         </div>
       </div>
     </main>
@@ -104,11 +211,11 @@
       </ul>
     </nav>
     <div id="splash-screen">
-      <i class="fa-solid fa-comment"></i>
+      <i class="fa-regular fa-comment"></i>
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big 😁</span>
+      <span>Your screen is too big</span>
     </div>
 
     <script

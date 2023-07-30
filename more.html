@@ -23,10 +23,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
+      <p class="screen-header__title">More</p>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-qrcode fa-lg"></i></span>
         <span
           ><div class="point"></div>
           <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
@@ -34,98 +34,84 @@
       </div>
     </header>
 
-    <main class="main-screen more-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/3612017?v=4"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
-            <h6 class="user-component__subtitle">+1 787 666 999</h6>
-            <span>!</span>
+    <main class="more-screen">
+      <div class="wallet">
+        <div class="wallet__white-box">
+          <div class="wallet__row">
+            <div class="wallet__row__column">
+              <span class="wallet__text-wallet">Wallet</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="wallet__row__column">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span class="wallet__text-certification">Cerification</span>
+            </div>
+          </div>
+          <div class="wallet__row">
+            <div class="wallet__row__column">
+              <i class="fas fa-comment"></i>
+              <span class="wallet__text-pay">pay</span>
+            </div>
+            <span>1,700 won</span>
+          </div>
+          <div class="wallet__row">
+            <div class="wallet__row__column">
+              <span>Remit</span>
+              <span class="bar"></span>
+              <span>Payment</span>
+              <span class="bar"></span>
+              <span>Asset</span>
+            </div>
+            <div class="wallet__row__column">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Perchase history</span>
+            </div>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="fa-regular fa-comment-alt fa-2x"></i>
-        </div>
       </div>
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-calendar-check"></i><span>Calendar</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-box-archive"></i><span>Talk Drive</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-face-smile-wink"></i><span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-paint-roller"></i><span>Themes</span>
-        </div>
-      </div>
-      <!--
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fa-solid fa-file-invoice-dollar"></i><span>Account</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fa-regular fa-comments"></i><span>Openchat</span>
-        </div>
-      </div>
-    -->
-      <div class="more-suggestions">
-        <h4 class="more-suggestions__title">Suggestions</h4>
 
+      <div class="more__icons">
         <div class="icon-row">
           <div class="icon-row__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <span>Kokoa Story</span>
+            <i class="fa-solid fa-gift"></i><span>Gift</span>
           </div>
           <div class="icon-row__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <span>Kokoa Story</span>
+            <i class="fa-solid fa-hand-holding-heart"></i><span>Received</span>
           </div>
           <div class="icon-row__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <span>Kokoa Story</span>
+            <i class="fa-solid fa-bag-shopping"></i><span>Shop</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-m"></i><span>Makers</span>
           </div>
         </div>
-
-        <!-- <div class="more-suggestions__icons">
-              <div class="more-suggestions__icon">
-                <div class="more-suggestions__icon-image"><i class="fa-solid fa-quote-right"></i></div>
-                <span class="more-suggestions__icon-text">Kokoa Story</span>
-              </div>
-              <div class="more-suggestions__icon">
-                <div class="more-suggestions__icon-image"><i class="fa-solid fa-quote-right"></i></div>
-                <span class="more-suggestions__icon-text">Kokoa Story</span>
-              </div>
-              <div class="more-suggestions__icon">
-                <div class="more-suggestions__icon-image"><i class="fa-solid fa-quote-right"></i></div>
-                <span class="more-suggestions__icon-text">Kokoa Story</span>
-              </div>
-            </div> -->
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-face-smile"></i><span>Emoticon</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-box-archive"></i><span>Talk Drive</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-regular fa-calendar"></i><span>Calendar</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fa-solid fa-gamepad"></i><span>Games</span>
+          </div>
+        </div>
       </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class nav="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
+            ><i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="badge nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <i class="fa-regular fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
@@ -143,7 +129,7 @@
     </nav>
 
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <span>Your screen is too big</span>
     </div>
     <script
       src="https://kit.fontawesome.com/0d28aa3af3.js"

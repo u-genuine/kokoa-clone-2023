@@ -1,11 +1,16 @@
-.badge{
-    background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
+.badge {
+  background-color: var(--blue);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.badge__sm {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
 }
